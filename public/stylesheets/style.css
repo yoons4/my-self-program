@@ -3,25 +3,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.blue{
-  color: blue;
-}
-
-.yellow{
-  color: yellow;
-}
-
-.green{
-  color: green;
-}
-
-q{
-  font-size: 20pt;
-}
-
-*{
-  text-align: start;
-}
 a {
   color: #00B7FF;
 }
