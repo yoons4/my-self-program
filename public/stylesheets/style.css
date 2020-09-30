@@ -15,8 +15,12 @@ body {
   background-color: green;
 }
 
-p{
+q{
+  font-size: 10pt;
+}
 
+*{
+  text-align: start;
 }
 a {
   color: #00B7FF;
