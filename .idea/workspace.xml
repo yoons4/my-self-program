@@ -29,6 +29,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f3d17d2-d937-4685-a400-f10fc54e32df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,7 @@
       <workItem from="1601440186988" duration="157000" />
       <workItem from="1601440403154" duration="582000" />
       <workItem from="1601504657729" duration="47000" />
-      <workItem from="1601789637892" duration="9472000" />
+      <workItem from="1601789637892" duration="11031000" />
     </task>
     <servers />
   </component>
@@ -122,28 +123,28 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1601799212510">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1601804483815">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1601799212510" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1601804483815" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1601442288550" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1601438917067" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1601799212509">
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1601804483815">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1601799212509" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1601804483815" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1601442288549" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1601438917066" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1601799212507">
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1601804483814">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1601799212507" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1601804483814" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1601442288548" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1601438917065" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1601799212509">
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1601804483815">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1601799212509" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1601804483815" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1601442288549" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1601438917067" />
     <state x="494" y="133" key="RollbackChangesDialog" timestamp="1601429315639">
