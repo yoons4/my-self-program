@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <title>Showing the numbers.html</title>
     <style>
+        table{
+            border:1px solid black;
+            width:100%;
+        }
         th{
-            font-size:15px;
-            background-color:palegreen;
+            background-color:black;
+            color:white;
+            border:1px solid black;
+        }
+        tr{
+            border-collapse:collapse;
+            border:1px solid black;
         }
         td{
-            font-size:15px;
-            border-color:red;
-            background-color:lightblue;
+            border:1px solid black;
+            border-collapse:collapse;
         }
         div{
             border: 5px solid black;
-            background-color: green;
+            /*background-color: green;*/
         }
         .placeback{
-            border: 5px solid goldenrod;
-            background-color:yellow;
+            border: 20px solid goldenrod;
+            padding: 5px;
+            background-color:lightgreen;
         }
         #placefront{
             display:grid;
@@ -30,160 +39,145 @@
             border: 5px solid orange;
             background-color:darkorange;
         }
+        #grid-container {
+            display:grid;
+            border:0px;
+            grid-template-columns: auto auto;
+        }
+        .grid-container-cell {
+            border: 0px;
+            padding: 150px;
+        }
+
+        #grid-container > div {
+            text-align: center;
+            border: 0px;
+
+            /*background: lightgreen;*/
+        }
+
     </style>
 </head>
 <body>
-    <h1>Multiplication Laws</h1>
-    <h2>Multiplication Table with inputs, which are one digits(9 X 9)</h2>
+    <p>Welcome to my Page of Numbers</p>
     <table>
         <tr>
-            <th>X</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
-            <th>8</th>
-            <th>9</th>
+            <th style = "color:white">n</th>
+            <th style = "color:white">n2</th>
+            <th style = "color:white">n3</th>
+            <th style = "color:white">n!</th>
+            <th style = "color:white">2n</th>
         </tr>
         <tr>
-            <th>1</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
             <td>1</td>
             <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
         </tr>
         <tr>
-            <th>2</th>
             <td>2</td>
             <td>4</td>
-            <td>6</td>
             <td>8</td>
-            <td>10</td>
-            <td>12</td>
-            <td>14</td>
-            <td>16</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <th>3</th>
-            <td>3</td>
-            <td>6</td>
-            <td>9</td>
-            <td>12</td>
-            <td>15</td>
-            <td>18</td>
-            <td>21</td>
-            <td>24</td>
-            <td>27</td>
-        </tr>
-        <tr>
-            <th>4</th>
+            <td>2</td>
             <td>4</td>
-            <td>8</td>
-            <td>12</td>
-            <td>16</td>
-            <td>20</td>
-            <td>24</td>
-            <td>28</td>
-            <td>32</td>
-            <td>36</td>
         </tr>
         <tr>
-            <th>5</th>
-            <td>5</td>
-            <td>10</td>
-            <td>15</td>
-            <td>20</td>
-            <td>25</td>
-            <td>30</td>
-            <td>35</td>
-            <td>40</td>
-            <td>45</td>
-        </tr>
-        <tr>
-            <th>6</th>
-            <td>6</td>
-            <td>12</td>
-            <td>18</td>
-            <td>24</td>
-            <td>30</td>
-            <td>36</td>
-            <td>42</td>
-            <td>48</td>
-            <td>54</td>
-        </tr>
-        <tr>
-            <th>7</th>
-            <td>7</td>
-            <td>14</td>
-            <td>21</td>
-            <td>28</td>
-            <td>35</td>
-            <td>42</td>
-            <td>49</td>
-            <td>56</td>
-            <td>63</td>
-        </tr>
-        <tr>
-            <th>8</th>
-            <td>8</td>
-            <td>16</td>
-            <td>24</td>
-            <td>32</td>
-            <td>40</td>
-            <td>48</td>
-            <td>56</td>
-            <td>64</td>
-            <td>72</td>
-        </tr>
-        <tr>
-            <th>9</th>
+            <td>3</td>
             <td>9</td>
-            <td>18</td>
             <td>27</td>
+            <td>6</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>16</td>
+            <td>64</td>
+            <td>24</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>25</td>
+            <td>125</td>
+            <td>120</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>6</td>
             <td>36</td>
-            <td>45</td>
-            <td>54</td>
-            <td>63</td>
-            <td>72</td>
+            <td>216</td>
+            <td>720</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>49</td>
+            <td>343</td>
+            <td>5040</td>
+            <td>128</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>64</td>
+            <td>512</td>
+            <td>40320</td>
+            <td>256</td>
+        </tr>
+        <tr>
+            <td>9</td>
             <td>81</td>
+            <td>729</td>
+            <td>362880</td>
+            <td>512</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>100</td>
+            <td>1000</td>
+            <td>3628800</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td style="background-color:darkgreen">Linear</td>
+            <td style="background-color:darkgreen">Quadratic</td>
+            <td style="background-color:darkgreen">Cube</td>
+            <td style="background-color:darkgreen">Factorial</td>
+            <td style="background-color:darkgreen">Exponent</td>
         </tr>
     </table>
     <br>
-    <h2>How to understand the multiplication in the real-life</h2>
-    <div>
-        <img src = "images/maxresdefault.jpg" alt="default" width=500 height=400>
-        <img src = "images/multiplying_apples.jpg" alt="apple" width = 500 height = 400>
+
+    <div class="placeback">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <br>
-    <h2>Description of multiplication</h2>
-    <div class="placeback">
-        <p><b>a mathematical operation, symbolized by a × b, a ⋅ b, a ∗ b, or ab, and signifying, \n when a and b
-            <br>are positive integers, that a is to be added to itself as many times as there are units in b; the
-            <br>addition of a number to itself as often as is indicated by another number, as in 2×3 or 5×10.</b></p>
+    <br>
+    <h2>How to understand the multiplication in the real-life</h2>
+    <div id="grid-container">
+        <div class="grid-container-cell">Linear</div>
+        <div><img src="images/linear.png" alt="linear" width="500" height="400"></div>
+        <div class="grid-container-cell">Quadratic</div>
+        <div><img src="images/Quadratic.png" alt="quadratic" width="500" height="400"></div>
+        <div class="grid-container-cell">Cubic</div>
+        <div><img src="images/Cubic.png" alt="cubic" width="500" height="400"></div>
+        <div class="grid-container-cell">Factorial</div>
+        <div><img src="images/Factorial.png" alt="factorial" width="500" height="400"></div>
+        <div class="grid-container-cell">Exponential</div>
+        <div><img src="images/Exponential.png" alt="exponential" width="500" height="400"></div>
     </div>
     <br>
 
     <h2>What will happen when I try to repeat multiplication on the same number?</h2>
     <div id = "placefront">
         <div>
-            <p> result = x ^ n</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div>
-            <p>n = number of the same number.<br>x = input</p>
-            <p>Show the two equations with different formats!!!!!!</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam remaperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam remaperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
         </div>
         <div>
-            <p>n can be any numbers. x1 == first number in the equation.</p>
-            <p> result = x1 * x2 * x3 * .. * xn</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
 </body>
